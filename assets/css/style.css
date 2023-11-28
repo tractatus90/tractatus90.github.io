@@ -42,6 +42,15 @@ header p {
     margin-top: 3em;
 }
 
+section .iframe {
+    border: solid 1px;
+    width: 80%;
+    margin: auto;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    
+}
+
 
 /* Background colors palette
 #E6F5FF
