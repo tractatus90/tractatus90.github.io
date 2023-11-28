@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap");
+
+.navbar-brand img {
+  width: 100px;
+}
+
+.navbar.color {
+  background-color: rgba(40, 167, 69, 1);
+}
+.container {
+  width: 80%;
+}
+
+.img-product {
+  height: 191px;
+}
+.card-detail {
+  border-top: solid 1px rgb(112, 112, 112);
+}
+
+.card-detail p {
+  display: flex;
+  align-items: center;
+}
+
+.tarjeta-texto h2,
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.card-detail .precio-grande {
+  font-weight: 500;
+  color: rgba(40, 167, 69, 1);
+  font-size: 1.5em;
+}
+
+.formulario {
+  background-color: rgba(40, 167, 69, 1);
+  height: 241px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+.formulario2,
+.inputs {
+  width: 30%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.boton {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  width: 80%;
+  font-weight: 300;
+}
+footer img {
+  width: 100px;
+}
+footer p,
+h2 {
+  width: 100%;
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}

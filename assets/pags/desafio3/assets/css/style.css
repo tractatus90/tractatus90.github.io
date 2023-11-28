@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  background-color: black;
+  color: #ffffff;
+  font-family: raleway;
+}
+header h1 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: normal;
+  margin: 0;
+}
+
+header img {
+  width: 1280pc;
+  height: 727px;
+  max-width: 100%;
+}
+
+.descripcion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.descripcion .p {
+  width: 475px;
+  height: 197px;
+  margin: 75px 100px 75px 150px;
+}
+.descripcion .img {
+  width: 399px;
+  height: 237px;
+  margin: 75px 150px 75px 0;
+}
+
+.caracteristicas.padre {
+  background-color: #1e1a13;
+  height: 348px;
+}
+
+.carac {
+  width: 30%;
+}
+
+.caracteristicas h2 {
+  font-size: 40px;
+  text-align: center;
+  font-weight: lighter;
+  letter-spacing: 0;
+  padding-top: 50px;
+}
+
+.caracteristicas .hijo {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 25px;
+  font-weight: lighter;
+  padding-top: 40px;
+}
+
+.carrusel {
+  display: flex;
+  justify-content: center;
+  height: 348px;
+  align-items: center;
+}
+
+.carrusel img {
+  width: 316px;
+  height: 202px;
+  margin: 10px;
+}
+
+footer {
+  background-color: #1e1a13;
+  font-size: 20px;
+  font-weight: lighter;
+  height: 102px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
