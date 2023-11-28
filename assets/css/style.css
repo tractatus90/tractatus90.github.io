@@ -35,6 +35,12 @@ header p {
     font-weight: 400;
 }
 
+.educacion,
+.experiencia {
+    width: 90%;
+    margin: auto;
+    margin-top: 3em;
+}
 
 
 /* Background colors palette
