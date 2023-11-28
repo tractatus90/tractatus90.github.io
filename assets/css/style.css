@@ -1,7 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400&display=swap');
+
 .barra-nav {
-    background-color: #E6F5FF
+    background-color: #E6F5FF;
+    margin-bottom: 3em;
+    border: solid 0.25px black;
 
 }
+
+body {
+    background-color: #89B35230;
+    font-family: 'Source Code Pro', monospace;
+}
+header {
+    background-image: url(../imgs/20230910_164627.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:left;
+    width: 90%;
+    height: 400px;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: auto;
+}
+
+header div {
+    justify-content: flex-start;
+    width: 25%;
+    background-color: #1C71A690;
+    padding: 1em;
+}
+
+header p {
+    padding-top: 5em;
+    font-weight: 400;
+}
+
+
 
 /* Background colors palette
 #E6F5FF
