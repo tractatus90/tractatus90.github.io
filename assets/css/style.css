@@ -6,32 +6,41 @@
     border: solid 0.25px black;
 
 }
+.nav-bar-titulo {
+    font-size: 1em;
+}
 
 body {
     background-color: #89B35230;
     font-family: 'Source Code Pro', monospace;
 }
-header {
+
+.header {
+    width: 90%;
+    margin: auto;
+    height: 400px;
+}
+
+
+.foto-header {
     background-image: url(../imgs/20230910_164627.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     background-position:left;
-    width: 90%;
-    height: 400px;
-    display: flex;
-    flex-direction: row-reverse;
-    margin: auto;
+    min-height: 50%;
+    
 }
 
-header div {
-    justify-content: flex-start;
-    width: 25%;
+
+header .titulo {
+    
     background-color: #1C71A690;
     padding: 1em;
+    min-height: 50%;
 }
 
 header p {
-    padding-top: 5em;
+    
     font-weight: 400;
 }
 
@@ -51,10 +60,39 @@ section .iframe {
     
 }
 
+.tarjetas {
+    width: 90%;
+}
 
-/* Background colors palette
-#E6F5FF
-#1C71A6
-#89B352
-#4D483B
-#F0B23E*/
+.card-img {
+    height: 250px;
+    padding: 1em;
+
+}
+
+footer {
+    background-color: #E6F5FF;
+}
+footer .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 1em;
+    
+}
+
+.footer p {
+    padding-left: 2em;
+}
+
+.footer .social-media {
+    padding-right: 2em;
+}
+
+.boton {
+    background-color: #1C71A690;
+    border: #1C71A690;
+    color: black;
+    font-weight: 400;
+
+}
