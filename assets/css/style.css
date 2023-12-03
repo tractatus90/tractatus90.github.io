@@ -8,6 +8,7 @@
 }
 .nav-bar-titulo {
     font-size: 1em;
+    
 }
 
 body {
@@ -82,11 +83,12 @@ footer .footer {
 }
 
 .footer p {
-    padding-left: 2em;
+    margin-left: 2em;
+    max-width: 60%
 }
 
 .footer .social-media {
-    padding-right: 2em;
+    margin-right: 2em;
 }
 
 .boton {
